@@ -83,7 +83,7 @@ Seed 42 is a typical draw. Our own check across 300 seeds found Î²3 averaging âˆ
 
 | Member | Contribution |
 |---|---|
-| Isis Harrison | [to be filled in] |
+| Isis Harrison | Section 1 selection matrix; Section 3 strategic selection verdict; verification header |
 | Nana Amoah | Selected dataset; A3 refit and grounded synthesis (720-row synthetic dataset and generator) |
 | Tejas Vaidya | Section 2 Jaccard and Gower distance analysis; repository setup |
 
