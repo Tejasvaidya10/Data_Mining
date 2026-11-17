@@ -48,13 +48,15 @@ visits = 17.08 + 2.67·flyer + 15.71·piedmont − 0.31·flyer×piedmont
 | A3 β3 | −3.625 (p = 0.51) | −4.10 (p = 0.0003) |
 | Snack effect, first-year / upperclass | +12.5 / +2.6 | +12.3 / +2.1 |
 
-Seed 42 is a typical draw: across 1,000 seeds, β3 averages −3.61, falls within ±2 of −3.625 in 95% of runs and never comes back positive.
+Seed 42 is a typical draw. Our own check across 300 seeds found β3 averaging −3.65, within ±2 of −3.625 in 96% of runs, never positive. The LLM's separate check across 1,000 seeds found the same pattern (β3 averaging −3.61, within ±2 in 95% of runs, never positive).
 
 **Limitations**
 
 - **The synthetic p = 0.0003 is not evidence.** It is significant only because the 40-row pattern is repeated 18 times. The real p is 0.51 for the flyer interaction and 0.11 for the snack interaction.
 - **Halls are copies of one real hall per type.** C01 to C09 copy Piedmont North and C10 to C18 copy Commons, so there is no real hall-to-hall variation.
+- **A6 clustering will likely rediscover hall type.** Halls within a type are identical apart from noise, so clusters that split first-year from upperclass halls are built in, not discovered.
 - **Both semesters use the Spring 2026 calendar,** including spring break, so they are labeled Sim-Semester-1 and Sim-Semester-2, not Fall.
+- **Zero floor.** Nine rows were set to 0 visits, below the real minimum of 2.0.
 
 ## Repository Structure
 
